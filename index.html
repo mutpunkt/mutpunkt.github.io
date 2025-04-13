@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutpunkt – Ein offenes Ohr</title>
+  <meta name="description" content="Mutpunkt – Ein anonymer Ort für Unterstützung bei psychischen Herausforderungen.">
+  <meta name="keywords" content="Psychische Gesundheit, Unterstützung, Anonym, Gesprächspartner, Mutpunkt">
+  <meta name="author" content="Louisa">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      color: #333;
+    }
+    header {
+      background-color: #c3aed6;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      padding: 1em;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+    section {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: white;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #7e6aa2;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+    input, textarea, button {
+      padding: 0.8em;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #c3aed6;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #a58bc9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mutpunkt</h1>
+    <p>Ein Ort für dich – anonym, offen, ehrlich</p>
+  </header>
+  <nav>
+    <a href="#start">Start</a>
+    <a href="#ueber">Über mich</a>
+    <a href="#hilfe">So funktioniert’s</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="start">
+    <h2>Willkommen bei Mutpunkt</h2>
+    <p>Du fühlst dich allein mit deinen Gedanken, Sorgen oder Gefühlen? Hier findest du einen ruhigen Ort, um dich anonym mitzuteilen. Ich höre zu – ohne zu bewerten, ohne Druck. Nur echt, nur du.</p>
+  </section>
+
+  <section id="ueber">
+    <h2>Über mich</h2>
+    <p>Ich bin Louisa. Ich weiß, wie es ist, sich unverstanden, überfordert oder verloren zu fühlen. Deshalb möchte ich einen Raum schaffen, in dem du dich sicher öffnen kannst. Ohne Diagnose, ohne Etiketten – einfach als Mensch für Mensch.</p>
+  </section>
+
+  <section id="hilfe">
+    <h2>So funktioniert’s</h2>
+    <p>Du kannst mir ganz anonym schreiben. Ob du gerade nicht weiterweißt, jemanden brauchst, der zuhört, oder einfach deine Gedanken loswerden willst – ich bin da. Ich bin keine Therapeutin, aber ich bin jemand, der mitfühlt, versteht und ehrlich antwortet.</p>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontaktformular</h2>
+    <form action="https://formsubmit.co/mutpunkt.info@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_autoresponse" value="Danke für deine Nachricht. Ich melde mich so bald ich kann.">
+      <label for="nachricht">Deine Nachricht (anonym):</label>
+      <textarea id="nachricht" name="message" rows="6" placeholder="Schreib hier, was dich bewegt..." required></textarea>
+      <button type="submit">Abschicken</button>
+    </form>
+  </section>
+</body>
+</html>
