@@ -3,102 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mutpunkt – Ein offenes Ohr</title>
-  <meta name="description" content="Mutpunkt – Ein anonymer Ort für Unterstützung bei psychischen Herausforderungen.">
-  <meta name="keywords" content="Psychische Gesundheit, Unterstützung, Anonym, Gesprächspartner, Mutpunkt">
-  <meta name="author" content="Louisa">
+  <title>Mutpunkt</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f8f8;
-      margin: 0;
+      font-family: sans-serif;
+      background-color: #f9f9fb;
       color: #333;
+      margin: 0;
+      padding: 0;
     }
     header {
-      background-color: #c3aed6;
-      color: white;
-      padding: 1.5em;
+      background-color: #cbb4e4;
+      padding: 1rem;
       text-align: center;
     }
     nav {
-      background-color: #eee;
       display: flex;
       justify-content: center;
-      gap: 2em;
-      padding: 1em;
+      gap: 1rem;
+      background-color: #eee;
+      padding: 0.5rem;
+      flex-wrap: wrap;
     }
     nav a {
       text-decoration: none;
-      color: #333;
+      color: #444;
+      font-weight: bold;
     }
-    section {
+    main {
+      padding: 2rem;
       max-width: 800px;
-      margin: 2em auto;
-      padding: 1em;
-      background-color: white;
-      border-radius: 8px;
+      margin: auto;
     }
-    h2 {
-      color: #7e6aa2;
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #999;
     }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
-    }
-    input, textarea, button {
-      padding: 0.8em;
-      font-size: 1em;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      background-color: #c3aed6;
+    .button {
+      display: inline-block;
+      background-color: #cbb4e4;
       color: white;
-      border: none;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #a58bc9;
+      padding: 0.7rem 1.2rem;
+      margin-top: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Mutpunkt</h1>
-    <p>Ein Ort für dich – anonym, offen, ehrlich</p>
+    <p>Ein Ort, an dem Mut wachsen darf.</p>
   </header>
+
   <nav>
     <a href="#start">Start</a>
-    <a href="#ueber">Über mich</a>
-    <a href="#hilfe">So funktioniert’s</a>
+    <a href="#about">Über mich</a>
+    <a href="#angebot">Angebot</a>
+    <a href="#hilfe">Soforthilfe</a>
     <a href="#kontakt">Kontakt</a>
+    <a href="#faq">FAQ</a>
+    <a href="#impressum">Impressum</a>
   </nav>
 
-  <section id="start">
-    <h2>Willkommen bei Mutpunkt</h2>
-    <p>Du fühlst dich allein mit deinen Gedanken, Sorgen oder Gefühlen? Hier findest du einen ruhigen Ort, um dich anonym mitzuteilen. Ich höre zu – ohne zu bewerten, ohne Druck. Nur echt, nur du.</p>
-  </section>
+  <main>
+    <section id="start">
+      <h2>Willkommen bei Mutpunkt</h2>
+      <p>Mutpunkt ist ein sicherer Ort für alle, die sich mit psychischer Belastung, Krisen oder innerem Druck konfrontiert sehen. Hier findest du Unterstützung, Verständnis und echte Worte von Mensch zu Mensch – anonym, urteilsfrei und zugewandt.</p>
+      <a class="button" href="#kontakt">Jetzt schreiben</a>
+    </section>
 
-  <section id="ueber">
-    <h2>Über mich</h2>
-    <p>Ich bin Louisa. Ich weiß, wie es ist, sich unverstanden, überfordert oder verloren zu fühlen. Deshalb möchte ich einen Raum schaffen, in dem du dich sicher öffnen kannst. Ohne Diagnose, ohne Etiketten – einfach als Mensch für Mensch.</p>
-  </section>
+    <section id="about">
+      <h2>Über mich</h2>
+      <p>Ich bin Louisa – Mama, Macherin, Mutmacherin. Mein Leben war nicht immer leicht. Ich weiß, wie es sich anfühlt, wenn man innerlich kämpft, während außen alles „funktionieren“ soll. Ich kenne dunkle Gedanken, das Gefühl von Enge, das Schweigen im eigenen Zuhause – und den Wunsch, endlich frei zu atmen.</p>
+      <p>Doch ich habe mich entschieden, nicht stehen zu bleiben, sondern etwas zu verändern. Für mich. Für mein Kind. Für andere, die sich genauso verloren fühlen wie ich mich einst.</p>
+      <p>Heute gehe ich meinen Weg mit mehr Klarheit, Selbstvertrauen und Mitgefühl – und möchte genau das weitergeben: Einen Punkt im Leben, an dem Mut wächst.</p>
+      <p>Hier bei Mutpunkt bekommst du keine Diagnosen, keine Schubladen und keine belehrenden Ratschläge. Sondern echtes Zuhören. Verständnis. Und das Gefühl, dass du nicht allein bist.</p>
+      <a class="button" href="#faq">Wer steckt hinter Mutpunkt?</a>
+    </section>
 
-  <section id="hilfe">
-    <h2>So funktioniert’s</h2>
-    <p>Du kannst mir ganz anonym schreiben. Ob du gerade nicht weiterweißt, jemanden brauchst, der zuhört, oder einfach deine Gedanken loswerden willst – ich bin da. Ich bin keine Therapeutin, aber ich bin jemand, der mitfühlt, versteht und ehrlich antwortet.</p>
-  </section>
+    <section id="angebot">
+      <h2>Angebot</h2>
+      <ul>
+        <li>Anonymes Kontaktformular</li>
+        <li>Zuhören & Orientierung</li>
+        <li>Erfahrungsbasierte Hilfe</li>
+      </ul>
+    </section>
 
-  <section id="kontakt">
-    <h2>Kontaktformular</h2>
-    <form action="https://formsubmit.co/mutpunkt.info@gmail.com" method="POST">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_autoresponse" value="Danke für deine Nachricht. Ich melde mich so bald ich kann.">
-      <label for="nachricht">Deine Nachricht (anonym):</label>
-      <textarea id="nachricht" name="message" rows="6" placeholder="Schreib hier, was dich bewegt..." required></textarea>
-      <button type="submit">Abschicken</button>
-    </form>
-  </section>
+    <section id="hilfe">
+      <h2>Soforthilfe in Notfällen</h2>
+      <p><strong>Telefonseelsorge:</strong> 0800 111 0 111 / 222 – <a href="https://www.telefonseelsorge.de" target="_blank">www.telefonseelsorge.de</a></p>
+      <p><strong>Nummer gegen Kummer:</strong> 116 111 – <a href="https://www.nummergegenkummer.de" target="_blank">www.nummergegenkummer.de</a></p>
+      <p><strong>Krisenchat:</strong> <a href="https://www.krisenchat.de" target="_blank">www.krisenchat.de</a></p>
+      <p><strong>Akute Notfälle:</strong> 112 oder nächste Notaufnahme</p>
+      <a class="button" href="#kontakt">Ich brauche Hilfe</a>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Du möchtest schreiben? Hier kommt bald ein anonymes Kontaktformular hin.</p>
+      <p>Email: <a href="mailto:kontakt@mutpunkt.de">kontakt@mutpunkt.de</a></p>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <p><strong>Ist Mutpunkt eine Therapie?</strong><br>Nein. Mutpunkt ersetzt keine Therapie und stellt keine medizinische oder psychologische Behandlung dar. Es geht um Gespräche, Zuhören, Austausch und Mut für den nächsten Schritt.</p>
+      <p><strong>Kostet Mutpunkt etwas?</strong><br>Nein. Mutpunkt ist ein Herzensprojekt. Alles, was du hier findest, ist kostenfrei.</p>
+      <p><strong>Bleibt meine Nachricht wirklich anonym?</strong><br>Ja. Es wird kein Name, keine E-Mail-Adresse oder andere Daten abgefragt, wenn du nicht möchtest. Deine Nachrichten werden vertraulich behandelt.</p>
+      <p><strong>Wie schnell bekomme ich eine Antwort?</strong><br>Ich beantworte deine Nachricht so schnell wie möglich. Bitte hab Verständnis, wenn es manchmal etwas dauert – ich bin eine Einzelperson, kein 24/7-Team.</p>
+      <p><strong>Was kann ich schreiben?</strong><br>Alles, was dich beschäftigt. Es gibt keine falschen Fragen oder "zu kleine Probleme". Wenn es dir auf dem Herzen liegt, ist es wichtig.</p>
+    </section>
+
+    <section id="impressum">
+      <h2>Impressum & Datenschutz</h2>
+      <p><strong>Verantwortlich:</strong><br>Louisa S.<br>Email: <a href="mailto:kontakt@mutpunkt.de">kontakt@mutpunkt.de</a></p>
+      <p><strong>Datenschutzerklärung:</strong><br>Es werden keine personenbezogenen Daten ohne deine ausdrückliche Zustimmung erhoben. Alle Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mutpunkt | Entwickelt mit Herz
+  </footer>
 </body>
 </html>
