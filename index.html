@@ -49,6 +49,15 @@
       margin-top: 1rem;
       border-radius: 8px;
       text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+    textarea, input[type="email"] {
+      width: 100%;
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 0.5rem;
     }
   </style>
 </head>
@@ -104,8 +113,20 @@
 
     <section id="kontakt">
       <h2>Kontakt</h2>
-      <p>Du möchtest schreiben? Hier kommt bald ein anonymes Kontaktformular hin.</p>
-      <p>Email: <a href="mailto:kontakt@mutpunkt.de">kontakt@mutpunkt.de</a></p>
+      <p>Du möchtest mir anonym schreiben? Fülle einfach das folgende Formular aus. Ich antworte dir so schnell ich kann.</p>
+      <form action="https://formsubmit.co/kontakt@mutpunkt.de" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Neue Nachricht über Mutpunkt">
+        <input type="hidden" name="_template" value="box">
+        
+        <label for="message">Nachricht:</label>
+        <textarea name="message" rows="6" required placeholder="Was möchtest du loswerden?"></textarea><br><br>
+
+        <label for="email">Antwortadresse (optional):</label>
+        <input type="email" name="email" placeholder="Wenn du eine Antwort möchtest"><br><br>
+
+        <button type="submit" class="button">Absenden</button>
+      </form>
     </section>
 
     <section id="faq">
